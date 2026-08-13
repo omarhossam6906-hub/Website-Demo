@@ -815,3 +815,284 @@ a {
 .Mena_Btn_L:hover{
     background-color: rgba(128, 128, 128, 0.759);
 }
+
+/* ---------- Prevent horizontal overflow ---------- */
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+/* 
+   TAB
+ */
+@media screen and (max-width: 1024px) {
+    /* Omar Welcome */
+    .Omar_Welcome {
+        width: 90%;
+        left: 0;
+        margin: 20px auto;
+    }
+    .Omar_Welcome_1 {
+        width: 50%;
+        font-size: 32px;
+    }
+    .Omar_Welcome_2 {
+        width: 50%;
+        font-size: 18px;
+    }
+  
+    .Omar_Selection {
+        width: 90%;
+        left: 0;
+        margin: 0 auto;
+    }
+    .Omar_Selection_Card {
+        width: 23%;
+    }
+  
+    .Omar_Tags {
+        width: 90%;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+    .Mena_explore {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .Mena_explore-card {
+        width: 23%;
+    }
+  
+    .Alaa_newsletter {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .Alaa_columns {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .Alaa_bottom_bar {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #nav .navbar {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    #nav .nav-dropdown {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+/* 
+   MOBILE
+  */
+@media screen and (max-width: 767px) {
+    /* ---------- Omar Body ---------- */
+    .Omar_Body {
+        height: auto;
+        padding: 20px;
+    }
+  
+    .Omar_Welcome {
+        width: 100%;
+        left: 0;
+        margin: 20px 0;
+        padding: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .Omar_Welcome_1,
+    .Omar_Welcome_2 {
+        width: 100%;
+        height: auto;
+    }
+    .Omar_Welcome_1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .Omar_Welcome_2 {
+        font-size: 16px;
+    }
+
+    .Omar_Selection {
+        width: 100%;
+        left: 0;
+        height: auto;
+        min-height: 600px;
+        margin: 0;
+    }
+    .Omar_Selection_Header {
+        position: relative;
+        width: 100%;
+        height: auto;
+        left: 0;
+        top: 0;
+        margin: 20px 0;
+        font-size: 24px;
+    }
+    .Omar_Selection_Cardholder {
+        position: relative;
+        width: 100%;
+        height: auto;
+        left: 0;
+        bottom: auto;
+        gap: 15px;
+        padding: 10px 0;
+    }
+    .Omar_Selection_Card {
+        width: calc(50% - 8px);
+        height: 400px;
+    }
+    .Omar_Selection_Card_text {
+        font-size: 25px;
+    }
+    .Omar_Selection_Card_text_model {
+        font-size: 17px;
+    }
+    .Omar_Selection_Card_text_info {
+        font-size: 12px;
+    }
+    .Omar_Selection_Cardholder_Btn_R {
+        left: auto;
+        right: 0;
+        bottom: 45%;
+    }
+    .Omar_Selection_Cardholder_Btn_L {
+        right: auto;
+        left: 0;
+        bottom: 45%;
+    }
+  
+    .Omar_Tags {
+        width: 100%;
+        left: 0;
+        height: auto;
+        margin-top: 30px;
+    }
+    .Omar_Tags_Body {
+        height: 500px;
+    }
+    .Omar_Tags_Body_Title {
+        font-size: 24px;
+    }
+    .Omar_Tags_Body_info_1 {
+        font-size: 16px;
+    }
+    .Omar_Tags_Body_info_2 {
+        font-size: 22px;
+    }
+    .Omar_Tags_Body_link {
+        font-size: 16px;
+    }
+    .Mena_discover {
+        padding: 50px 20px;
+    }
+    .Mena_cards {
+        grid-template-columns: 1fr;
+    }
+    .Mena_card img {
+        height: 250px;
+    }
+    .Mena_explore {
+        padding: 50px 20px;
+    }
+    .Mena_explore-grid {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .Mena_explore-card {
+        width: 100%;
+        height: auto;
+    }
+    .Mena_explore-card img {
+        height: 300px;
+    }
+    .Mena_Btn_R {
+        left: auto;
+        right: 5px;
+    }
+    .Mena_Btn_L {
+        right: auto;
+        left: 5px;
+    }
+    .main-header {
+        width: 100%;
+    }
+    .head-right,
+    .icons {
+        width: auto;
+    }
+    .search-bar {
+        width: 100%;
+        min-width: 0;
+    }
+   
+}
+
+
+@media screen and (max-width: 480px) {
+    .Omar_Body {
+        padding: 15px;
+    }
+    .Omar_Welcome_1 {
+        font-size: 24px;
+    }
+    .Omar_Welcome_2 {
+        font-size: 14px;
+    }
+    .Omar_Selection {
+        min-height: 500px;
+    }
+    .Omar_Selection_Card {
+        width: 100%;
+        height: 380px;
+    }
+    .Omar_Selection_Card_image {
+        height: 45%;
+    }
+    .Omar_Selection_Card_text {
+        height: 35%;
+        bottom: 3%;
+    }
+    .Omar_Tags_Body {
+        height: 430px;
+    }
+    .Omar_Tags_Body_Title {
+        font-size: 21px;
+    }
+    .Omar_Tags_Body_info_1 {
+        font-size: 14px;
+    }
+    .Omar_Tags_Body_info_2 {
+        font-size: 20px;
+    }
+    .Mena_explore-card img {
+        height: 250px;
+    }
+    .Mena_card img {
+        height: 220px;
+    }
+    #main-carousel .carousel-caption h1 {
+        font-size: 26px;
+    }
+    #main-carousel .carousel-caption h3 {
+        font-size: 16px;
+    }
+    .Alaa_columns {
+        grid-template-columns: 1fr;
+    }
+    .Alaa_socials {
+        gap: 20px;
+    }
+    .Alaa_chat_bubble {
+        right: 15px;
+        bottom: 15px;
+    }
+}
