@@ -298,7 +298,7 @@
 .Omar_Selection_Cardholder_Btn_R{
     position: absolute;
     bottom: 35%;
-    left: 100%;
+    left: 80%;
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -310,7 +310,7 @@
 .Omar_Selection_Cardholder_Btn_L{
     position: absolute;
     bottom: 35%;
-    right: 100%;
+    right: 80%;
     width: 30px;
     height: 30px;
     border-radius: 50%;
